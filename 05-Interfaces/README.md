@@ -1,4 +1,3 @@
-<<<<<<< 0933f223b846249d0e7aea1b902a5bd899af8818
 <<<<<<< fec619c55bbe14eb98b0a4a02066f2bef129b15e
 # Interfaces (procfs, sysfs)
 
@@ -6,11 +5,6 @@
 =======
 # Homework:
 >>>>>>> 05-Interfaces: Add homework task
-=======
-# Interfaces (procfs, sysfs)
-
-## Homework
->>>>>>> Cleanup: Add topicks to lessons' READMEs
 
 procfs and sysfs Kernel module interfaces:
 
