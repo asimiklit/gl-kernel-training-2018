@@ -1,0 +1,12 @@
+pi@orangepipc:~/gl-kernel-training-2018/04-KernelModule$ sudo insmod kmain.ko init=OK
+pi@orangepipc:~/gl-kernel-training-2018/04-KernelModule$ sudo lsmod | grep kmain
+kmain                  16384  0
+pi@orangepipc:~/gl-kernel-training-2018/04-KernelModule$ sudo rmmod kmain
+pi@orangepipc:~/gl-kernel-training-2018/04-KernelModule$ sudo dmesg
+[   96.051047] kmain: loading out-of-tree module taints kernel.
+[   96.051921] OK
+pi@orangepipc:~/gl-kernel-training-2018/04-KernelModule$ sudo rmmod kmain
+rmmod: ERROR: Module kmain is not currently loaded
+pi@orangepipc:~/gl-kernel-training-2018/04-KernelModule$ sudo dmesg
+[   96.051047] kmain: loading out-of-tree module taints kernel.
+[   96.051921] OK
