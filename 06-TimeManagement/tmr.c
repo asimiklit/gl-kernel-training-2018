@@ -35,7 +35,7 @@ void it_time_to_print(unsigned long tm)
 	pr_info("It is time for a message %llu)))", currentt);
 	print_time_timer.expires = jiffies + (1 * HZ);
 	print_time_timer.data = 0;
-	if(!stop)//some memory barier is needed here I think and below
+	if (!stop)//some memory barier is needed here I think and below
 		add_timer(&print_time_timer);
 }
 
